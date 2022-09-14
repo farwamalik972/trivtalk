@@ -1,0 +1,349 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+ 
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Raleway', sans-serif;
+     margin: 0;
+    padding: 0;
+}
+:root{
+      --navy:#22356F;
+      --header:#F4F9E2;
+      --blue:#62D0DF;
+      --orange:#f9B640;
+      --white:white;
+}
+.bg-img{
+    background-image: url(./imges/Rectangle\ 3.1.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+.logo{
+    margin-left: 50px;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+   
+}
+.nav-bar ul{
+    font-size: 18px;
+    
+   }
+   .nav-bar li{
+      padding: 35px;
+      display: inline-block;
+      text-align: center;
+      padding-left: 30px;
+      text-transform: uppercase;
+      text-align: center; 
+   }
+   li a{
+       display: inline-block;
+       text-align: center;
+       color: #22262A;
+       text-decoration: none;
+       font-size: 18px;
+   }
+   .active{
+    border-bottom: 1px solid black;
+   }
+   .btn{
+     padding: 20px 30px;
+    margin:0;
+    font-size: 20px;
+    border-radius: 50px;
+    border: none;
+    color: var(--white);
+    background-color: var(--blue);
+   }
+   .header{
+    background-image: url(./imges/Rectangle\ 3.1.png);
+    color: var(--header);
+    float: right;
+    border-radius:100% 50%;
+    margin-top: -175px;
+   }
+.header-content{
+    font-size: 50px;
+    margin-left: 30px;
+    margin-top: 120px;
+    color: var(--navy);
+}
+.para{
+    font-size: 25px;
+    margin-left: 55px;
+    margin-top: 120px;
+    line-height: 1.5;
+    
+}
+.btn-1{
+    background-color: var(--orange);
+    color: var(--white);
+    margin-left: 89px;
+    font-size: 30px;
+    border: none;
+}
+.btn-2{
+    background-color: var(--white);
+    color: var(--orange);
+    padding: 50px ;
+    margin-left: 2px;
+    font-size: 20px;
+    border: none;
+}
+.thrive{
+    width: 100%;
+    height: 605px;
+    background-color: var(--blue);
+    font-size: 30px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 155px;
+}
+.thrive-1{
+    margin: 150px 200px 100px;
+}
+.thrive-heading{
+   font-size: 30px;
+   color: var(--white);
+}
+.thrive-para{
+    color: var(--white);
+    margin-top: 30px;
+    line-height: 30px;
+}
+.about{
+    display: flex;
+}
+.about-us{
+    margin: 130px;
+}
+.about-1{
+    margin: 130px;
+    font-size: 15px;
+    line-height: 25px;
+}
+.about-para{
+    margin-bottom: 60px;
+}
+.link{
+    text-decoration: none;
+    color: grey;
+    font-size: 15px;
+    margin-left: 105px;
+}
+.card-part-3{
+    margin: 100px 0 0 70px;
+    position: relative;
+}
+.card-part-3::after{
+    content: "";
+    position: absolute;
+    display: block;
+    width: 200px;
+    height: 1px;
+    background-color: rgb(232,227,227);
+    top: -20px;
+    left: -20px;
+}
+.card-part-3::before{
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: var(--orange);
+    left: -20px;
+    top: 10px;
+}
+.card{
+    display: flex;
+    width: 100%;
+    height: 400px;
+    margin-top: -115px;
+}
+.card-1{
+    width: 25%;
+    background-color: #e3cfd2; ;
+    /* text-align: center; */
+    font-size: 30px;
+    color: var(--white);
+}
+.runing-card{
+   background-color: lightgreen;
+}
+.pump-1{
+    background-color:skyblue ;
+}
+.pump-2{
+    background-color: #22356F;
+}
+.card-parts{
+     display: flex;
+     width: 100%;
+     height: 400px;
+     margin-top:100px;
+}
+.card-para{
+    margin: 100px;
+    position: relative;
+    font-size: 30px;
+    color: var(--white);
+    text-align: center;
+}
+.card-para::before{
+    position: absolute;
+    content: "";
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: var(--orange);
+    left: -20px;
+    top: 10px;   
+}
+.card-para::after{
+    content: "";
+    position: absolute;
+    display: block;
+    width: 200px;
+    height: 1px;
+    background-color: rgb(232,227,227);
+    top: -20px;
+    left: 20px;
+}
+
+.card-section-1{
+    width: 35%;
+    background-color: var(--navy);
+}
+.card-section-2{
+    width: 35%;
+    background-color: var(--blue);
+}
+.card-section-3{
+    width: 35%;
+    background-color: peru;
+    background-image: url(./imges/fruit.jpg);
+}
+.card-part-1{
+    display: flex;
+    width: 100%;
+    height: 400px;
+    margin: 0;
+    /* margin-top:100px; */
+}
+.card-section-4{
+    width: 35%;
+    background-color: purple;
+}
+.card-section-5{
+    width: 35%;
+    background-color: var(--orange)
+}
+.card-section-6{
+    width: 35%;
+    background-color: lightgreen;
+   
+}
+.main-2{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+.parent{
+    display: flex;
+    margin-top: 50px;
+}
+.bar-head{
+   margin-left: 126px;
+  margin-top: 125px;
+   margin-bottom: 140px;
+   font-size: 20px;
+   color: grey;
+}
+.bar-para{
+    margin-left: 107px;
+    text-align: center;
+    margin-bottom: 318px;
+    font-size: 30px;
+    color: var(--navy);
+}
+.help{
+    margin-left: 50px;
+    text-decoration: none;
+    color: var(--orange);
+}
+.contact-main{
+    display: flex;
+    background-color: var(--navy);
+}
+.contact{
+    width: 100%;
+    height: 799px;
+}
+.contact-me{
+    font-size: 20px;
+    text-decoration: none;
+    color: var(--white);
+    margin-left: 115px;
+    margin-top: 70px;
+}
+.contact-head{
+    font-size: 40px;
+    color: var(--white);
+    margin-top: 220px;
+    margin-left: 200px;
+}
+.contact-para{
+    margin-left: 200px;
+    margin-top:50px;
+    font-size: 30px;
+    color: var(--white);
+    line-height: 1.5;
+    padding-bottom: 85px;
+}
+.contact-link{
+    font-size: 20px;
+    text-decoration: none;
+    color: var(--blue);
+    margin-bottom: 40px;
+    margin-left: 200px;
+}
+.parent-1{
+    display: flex;
+   
+}
+.info{
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.info-1{
+    margin-top: 10px;
+    margin-left: 50px;
+}
+.info-2{
+    margin-top: 10px;
+    margin-left: 50px;
+    color: var(--blue);
+}
+.footer{
+   width: 100%;
+   height: 80px;
+   background-color: var(--blue);
+}
+.footer-txt{
+    margin-left: 120px;
+    color: var(--white);
+    font-size: 20px;
+    margin-top: -4px;
+    padding: 30px;
+}
